@@ -12,7 +12,6 @@ public class Main {
         for (int i = 0; i < array1.length; i++) rA[i] = array1[i];
         for (int i = 0; i < array2.length; i++) rA[i + array1.length] = array2[i];
         return rA;
-
     }
 
     /**
@@ -32,7 +31,7 @@ public class Main {
      * Given two arrays of integers of equal length, write a method called product that multiplies each element in the first array by the element at the corresponding index in the second array.
      * The method product will return a new one dimensional array of integers.
      * int[] myArray1 = {1,3,5,7,9};
-     * int[] myArray2 = {2,4,6,8,10};=
+     * int[] myArray2 = {2,4,6,8,10};
      * product(myArray1, myArray2) → {2,12,30,56,90}
      */
     public static int[] product(int[] array1, int[] array2) {
